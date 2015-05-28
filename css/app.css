@@ -1,9 +1,24 @@
 .container{
   min-width: 100%;
 }
+.pallete{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.color{
+  display: inline-block;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
 .row{
   display: block;
   margin: 0;
+  margin-bottom: -4px;
   padding: 0;
 }
 .cell{
@@ -15,4 +30,34 @@
   margin: 0;
   padding: 0;
   border-collapse: collapse;
+}
+.black{
+  background-color: black;
+}
+.white{
+  background-color: white;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+.orange{
+  background-color: orange;
+}
+.grey{
+  background-color: grey;
+}
+.purple{
+  background-color: purple;
+}
+.brown{
+  background-color: brown;
 }
